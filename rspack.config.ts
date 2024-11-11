@@ -15,11 +15,6 @@ export default defineConfig({
 		rules: [
 			{
 				loader: 'babel-loader',
-				options: {
-					plugins: [
-						'./babel_plugin.js'
-					]
-				}
 			},
 			{
 				loader: 'builtin:swc-loader',
